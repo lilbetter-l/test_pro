@@ -9,10 +9,15 @@ public class SetDemo {
         set.add("hello");
         set.add("hello1");
         set.add("hello2");
+        //增强型遍历操作
         for (String s:set
              ) {
             System.out.println(s);
         }
+
+
+
+
     }
 
 }

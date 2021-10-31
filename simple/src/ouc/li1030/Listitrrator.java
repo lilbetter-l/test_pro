@@ -11,12 +11,14 @@ public class Listitrrator {
         list.add("love");
         list.add("you!");
         ListIterator<String> lit = list.listIterator();
-        while (lit.hasNext()){
+        while (lit.hasNext()) {
             String s = lit.next();
-            if (s.equals("love")){
+            if (s.equals("love")) {
                 lit.add("very love");
             }
         }
         System.out.println(list);
+        System.out.println("simpe".hashCode());
+
     }
 }
