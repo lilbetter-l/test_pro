@@ -1,4 +1,4 @@
-package ouc11;
+package ouc11.li01;
 
 import ouc.li1030.Stu_Collection.Stu;
 
