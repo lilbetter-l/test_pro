@@ -14,10 +14,10 @@
           </config>
         </ContributedStateBase>
       </target>
-      <target name="lab@10.132.161.100:22" type="ssh/sftp">
+      <target name="lab@10.132.154.115:22" type="ssh/sftp">
         <config>
           <option name="projectRootOnTarget" value="/home/lab/test_pro" />
-          <option name="serverName" value="lab@10.132.161.100:22 password" />
+          <option name="serverName" value="lab@10.132.154.115:22 password" />
         </config>
         <ContributedStateBase type="JavaLanguageRuntime">
           <config>
